@@ -1,5 +1,19 @@
-Railcraft-API
+Railcraft-API (DEPRECATED)
 =============
+__THIS REPOSITORY IS DEPRECATED! USE RAILCRAFT DIRECTLY:__
+```
+// Add jitpack as repository
+repositories {
+    maven {
+        url = "https://jitpack.io"
+    }
+}
+
+// Add Railcraft API
+compileOnly("com.github.GTNewHorizons:Railcraft:master-SNAPSHOT:api")
+// Or add Railcraft DEV
+compile("com.github.GTNewHorizons:Railcraft:master-SNAPSHOT:dev")
+```
 
 An API for interacting with Railcraft.
 
